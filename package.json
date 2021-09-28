@@ -1,0 +1,32 @@
+{
+  "name": "todolistapp",
+  "version": "1.0.0",
+  "description": "",
+  "default": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx parcel src/index.html",
+    "build": "npx parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cnimmo1/To-Do-List-Project.git"
+  },
+  "author": "Cassandra Nimmo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cnimmo1/To-Do-List-Project/issues"
+  },
+  "homepage": "https://github.com/cnimmo1/To-Do-List-Project#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0-rc.0",
+    "http-server": "^13.0.2",
+    "parcel": "^2.0.0-rc.0",
+    "scss": "^0.2.4"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "lodash": "^4.17.21",
+    "uuid": "^8.3.2"
+  }
+}
